@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5392D2179F588E8A7DE0A0A /* libPods-ZBAnZhiMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903C3DB900DFCDE7F984E74 /* libPods-ZBAnZhiMarket.a */; };
+		CC32A9901C1D6F73001F00CE /* searchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32A98E1C1D6F73001F00CE /* searchView.m */; };
+		CC32A9911C1D6F73001F00CE /* searchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC32A98F1C1D6F73001F00CE /* searchView.xib */; };
+		CC3964BA1C24EE10000495B8 /* ZBCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3964B91C24EE10000495B8 /* ZBCoverView.m */; };
+		CC397B271C0AFB6900F87CD3 /* appViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC397B251C0AFB6900F87CD3 /* appViewController.m */; };
+		CC397B281C0AFB6900F87CD3 /* appViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC397B261C0AFB6900F87CD3 /* appViewController.xib */; };
+		CC3C0A391C0AC4E5009EB027 /* FShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0A371C0AC4E5009EB027 /* FShowTableViewController.m */; };
+		CC3C0A3A1C0AC4E5009EB027 /* FShowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3C0A381C0AC4E5009EB027 /* FShowTableViewController.xib */; };
+		CC3E483E1C2D16BA008CF659 /* loadDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E483D1C2D16BA008CF659 /* loadDataObject.m */; };
+		CC3E48481C2D446A008CF659 /* detailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E48411C2D446A008CF659 /* detailTableViewController.m */; };
+		CC3E48491C2D446A008CF659 /* detailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3E48421C2D446A008CF659 /* detailTableViewController.xib */; };
+		CC3E484A1C2D446A008CF659 /* imageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E48441C2D446A008CF659 /* imageHeader.m */; };
+		CC3E484B1C2D446A008CF659 /* listsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E48461C2D446A008CF659 /* listsCell.m */; };
+		CC3E484C1C2D446A008CF659 /* listsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3E48471C2D446A008CF659 /* listsCell.xib */; };
+		CC4487861C1C1327000B82B2 /* menuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4487841C1C1327000B82B2 /* menuTableView.m */; };
+		CC4487871C1C1327000B82B2 /* menuTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4487851C1C1327000B82B2 /* menuTableView.xib */; };
+		CC44878B1C1C187F000B82B2 /* loginInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4487891C1C187F000B82B2 /* loginInViewController.m */; };
+		CC44878C1C1C187F000B82B2 /* loginInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC44878A1C1C187F000B82B2 /* loginInViewController.xib */; };
+		CC4487901C1C222F000B82B2 /* weatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC44878E1C1C222F000B82B2 /* weatherViewController.m */; };
+		CC4487911C1C222F000B82B2 /* weatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC44878F1C1C222F000B82B2 /* weatherViewController.xib */; };
+		CC4487951C1C2530000B82B2 /* weatherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4487931C1C2530000B82B2 /* weatherTableViewController.m */; };
+		CC4487961C1C2530000B82B2 /* weatherTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4487941C1C2530000B82B2 /* weatherTableViewController.xib */; };
+		CC44879A1C1C2546000B82B2 /* weatherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4487981C1C2546000B82B2 /* weatherDetailViewController.m */; };
+		CC44879B1C1C2546000B82B2 /* weatherDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4487991C1C2546000B82B2 /* weatherDetailViewController.xib */; };
+		CC45304B1C2CE05F0075B9E8 /* areasResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4530481C2CE05F0075B9E8 /* areasResult.m */; };
+		CC45304C1C2CE05F0075B9E8 /* districtResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45304A1C2CE05F0075B9E8 /* districtResult.m */; };
+		CC4530541C2CE0930075B9E8 /* listButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45304E1C2CE0930075B9E8 /* listButton.m */; };
+		CC4530551C2CE0930075B9E8 /* ZBListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4530501C2CE0930075B9E8 /* ZBListsViewController.m */; };
+		CC4530561C2CE0930075B9E8 /* ZBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4530521C2CE0930075B9E8 /* ZBTableViewController.m */; };
+		CC4530571C2CE0930075B9E8 /* ZBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4530531C2CE0930075B9E8 /* ZBTableViewController.xib */; };
+		CC48AECA1C0FCEB200AE0747 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48AEC81C0FCEB200AE0747 /* SCViewController.m */; };
+		CC48AECB1C0FCEB200AE0747 /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC48AEC91C0FCEB200AE0747 /* SCViewController.xib */; };
+		CC48AECF1C0FDCD700AE0747 /* SCReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48AECE1C0FDCD700AE0747 /* SCReusableView.m */; };
+		CC4E00041C181D7A006C60FC /* downLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFFB1C181D7A006C60FC /* downLoadViewController.m */; };
+		CC4E00051C181D7A006C60FC /* UIImage+MostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFFD1C181D7A006C60FC /* UIImage+MostColor.m */; };
+		CC4E00061C181D7A006C60FC /* ZBAppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFFF1C181D7A006C60FC /* ZBAppTableViewController.m */; };
+		CC4E00071C181D7A006C60FC /* ZBAppTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4E00001C181D7A006C60FC /* ZBAppTableViewController.xib */; };
+		CC4E00081C181D7A006C60FC /* zoomImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E00021C181D7A006C60FC /* zoomImageViewController.m */; };
+		CC4E00091C181D7A006C60FC /* zoomImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4E00031C181D7A006C60FC /* zoomImageViewController.xib */; };
+		CC4E000D1C181E13006C60FC /* downLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4E000C1C181E13006C60FC /* downLoadViewController.xib */; };
+		CC4EFFE01C18045D006C60FC /* ZBCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFD61C18045D006C60FC /* ZBCollection.m */; };
+		CC4EFFE11C18045D006C60FC /* ZBCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4EFFD71C18045D006C60FC /* ZBCollection.xib */; };
+		CC4EFFE21C18045D006C60FC /* ZBCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFD91C18045D006C60FC /* ZBCollectionView.m */; };
+		CC4EFFE31C18045D006C60FC /* ZBCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4EFFDA1C18045D006C60FC /* ZBCollectionView.xib */; };
+		CC4EFFE41C18045D006C60FC /* ZBHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFDC1C18045D006C60FC /* ZBHeader.m */; };
+		CC4EFFE51C18045D006C60FC /* ZBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFDE1C18045D006C60FC /* ZBTableView.m */; };
+		CC4EFFE61C18045D006C60FC /* ZBTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4EFFDF1C18045D006C60FC /* ZBTableView.xib */; };
+		CC4EFFF71C181B65006C60FC /* personViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EFFF61C181B65006C60FC /* personViewController.m */; };
+		CC52BD1B1C0D7FA1007CCBAB /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC52BD1A1C0D7FA1007CCBAB /* ReusableView.m */; };
+		CC5B9A661C100E1500A0509E /* ZBFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5B9A651C100E1500A0509E /* ZBFlowLayout.m */; };
 		CCCA6C921BFEB076009BB108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA6C911BFEB076009BB108 /* main.m */; };
 		CCCA6C951BFEB076009BB108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA6C941BFEB076009BB108 /* AppDelegate.m */; };
 		CCCA6C981BFEB076009BB108 /* ZBAnZhiMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCA6C961BFEB076009BB108 /* ZBAnZhiMarket.xcdatamodeld */; };
@@ -15,6 +65,7 @@
 		CCCA6CA01BFEB076009BB108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCA6C9F1BFEB076009BB108 /* Images.xcassets */; };
 		CCCA6CA31BFEB076009BB108 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCA6CA11BFEB076009BB108 /* LaunchScreen.xib */; };
 		CCCA6CAF1BFEB076009BB108 /* ZBAnZhiMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA6CAE1BFEB076009BB108 /* ZBAnZhiMarketTests.m */; };
+		CCCA6CB91BFEB9B8009BB108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCA6CB81BFEB9B8009BB108 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +79,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6903C3DB900DFCDE7F984E74 /* libPods-ZBAnZhiMarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZBAnZhiMarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C598FC493DABD049702AC96 /* Pods-ZBAnZhiMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBAnZhiMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBAnZhiMarket/Pods-ZBAnZhiMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		CC32A98D1C1D6F73001F00CE /* searchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchView.h; sourceTree = "<group>"; };
+		CC32A98E1C1D6F73001F00CE /* searchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchView.m; sourceTree = "<group>"; };
+		CC32A98F1C1D6F73001F00CE /* searchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchView.xib; sourceTree = "<group>"; };
+		CC3964B81C24EE10000495B8 /* ZBCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCoverView.h; sourceTree = "<group>"; };
+		CC3964B91C24EE10000495B8 /* ZBCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCoverView.m; sourceTree = "<group>"; };
+		CC397B241C0AFB6900F87CD3 /* appViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appViewController.h; sourceTree = "<group>"; };
+		CC397B251C0AFB6900F87CD3 /* appViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appViewController.m; sourceTree = "<group>"; };
+		CC397B261C0AFB6900F87CD3 /* appViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = appViewController.xib; sourceTree = "<group>"; };
+		CC3C0A361C0AC4E5009EB027 /* FShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FShowTableViewController.h; sourceTree = "<group>"; };
+		CC3C0A371C0AC4E5009EB027 /* FShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FShowTableViewController.m; sourceTree = "<group>"; };
+		CC3C0A381C0AC4E5009EB027 /* FShowTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FShowTableViewController.xib; sourceTree = "<group>"; };
+		CC3E483C1C2D16BA008CF659 /* loadDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadDataObject.h; sourceTree = "<group>"; };
+		CC3E483D1C2D16BA008CF659 /* loadDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadDataObject.m; sourceTree = "<group>"; };
+		CC3E48401C2D446A008CF659 /* detailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailTableViewController.h; sourceTree = "<group>"; };
+		CC3E48411C2D446A008CF659 /* detailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailTableViewController.m; sourceTree = "<group>"; };
+		CC3E48421C2D446A008CF659 /* detailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailTableViewController.xib; sourceTree = "<group>"; };
+		CC3E48431C2D446A008CF659 /* imageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageHeader.h; sourceTree = "<group>"; };
+		CC3E48441C2D446A008CF659 /* imageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageHeader.m; sourceTree = "<group>"; };
+		CC3E48451C2D446A008CF659 /* listsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listsCell.h; sourceTree = "<group>"; };
+		CC3E48461C2D446A008CF659 /* listsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listsCell.m; sourceTree = "<group>"; };
+		CC3E48471C2D446A008CF659 /* listsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = listsCell.xib; sourceTree = "<group>"; };
+		CC4487831C1C1327000B82B2 /* menuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuTableView.h; sourceTree = "<group>"; };
+		CC4487841C1C1327000B82B2 /* menuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuTableView.m; sourceTree = "<group>"; };
+		CC4487851C1C1327000B82B2 /* menuTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuTableView.xib; sourceTree = "<group>"; };
+		CC4487881C1C187F000B82B2 /* loginInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginInViewController.h; sourceTree = "<group>"; };
+		CC4487891C1C187F000B82B2 /* loginInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginInViewController.m; sourceTree = "<group>"; };
+		CC44878A1C1C187F000B82B2 /* loginInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginInViewController.xib; sourceTree = "<group>"; };
+		CC44878D1C1C222F000B82B2 /* weatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherViewController.h; sourceTree = "<group>"; };
+		CC44878E1C1C222F000B82B2 /* weatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherViewController.m; sourceTree = "<group>"; };
+		CC44878F1C1C222F000B82B2 /* weatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weatherViewController.xib; sourceTree = "<group>"; };
+		CC4487921C1C2530000B82B2 /* weatherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherTableViewController.h; sourceTree = "<group>"; };
+		CC4487931C1C2530000B82B2 /* weatherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherTableViewController.m; sourceTree = "<group>"; };
+		CC4487941C1C2530000B82B2 /* weatherTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weatherTableViewController.xib; sourceTree = "<group>"; };
+		CC4487971C1C2546000B82B2 /* weatherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherDetailViewController.h; sourceTree = "<group>"; };
+		CC4487981C1C2546000B82B2 /* weatherDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherDetailViewController.m; sourceTree = "<group>"; };
+		CC4487991C1C2546000B82B2 /* weatherDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weatherDetailViewController.xib; sourceTree = "<group>"; };
+		CC4530471C2CE05F0075B9E8 /* areasResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = areasResult.h; sourceTree = "<group>"; };
+		CC4530481C2CE05F0075B9E8 /* areasResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = areasResult.m; sourceTree = "<group>"; };
+		CC4530491C2CE05F0075B9E8 /* districtResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = districtResult.h; sourceTree = "<group>"; };
+		CC45304A1C2CE05F0075B9E8 /* districtResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = districtResult.m; sourceTree = "<group>"; };
+		CC45304D1C2CE0930075B9E8 /* listButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listButton.h; sourceTree = "<group>"; };
+		CC45304E1C2CE0930075B9E8 /* listButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listButton.m; sourceTree = "<group>"; };
+		CC45304F1C2CE0930075B9E8 /* ZBListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBListsViewController.h; sourceTree = "<group>"; };
+		CC4530501C2CE0930075B9E8 /* ZBListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBListsViewController.m; sourceTree = "<group>"; };
+		CC4530511C2CE0930075B9E8 /* ZBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTableViewController.h; sourceTree = "<group>"; };
+		CC4530521C2CE0930075B9E8 /* ZBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTableViewController.m; sourceTree = "<group>"; };
+		CC4530531C2CE0930075B9E8 /* ZBTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBTableViewController.xib; sourceTree = "<group>"; };
+		CC48AEC71C0FCEB200AE0747 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		CC48AEC81C0FCEB200AE0747 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		CC48AEC91C0FCEB200AE0747 /* SCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCViewController.xib; sourceTree = "<group>"; };
+		CC48AECD1C0FDCD700AE0747 /* SCReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReusableView.h; sourceTree = "<group>"; };
+		CC48AECE1C0FDCD700AE0747 /* SCReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCReusableView.m; sourceTree = "<group>"; };
+		CC4E00001C181D7A006C60FC /* ZBAppTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBAppTableViewController.xib; sourceTree = "<group>"; };
+		CC4E00011C181D7A006C60FC /* zoomImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zoomImageViewController.h; sourceTree = "<group>"; };
+		CC4E00021C181D7A006C60FC /* zoomImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zoomImageViewController.m; sourceTree = "<group>"; };
+		CC4E00031C181D7A006C60FC /* zoomImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zoomImageViewController.xib; sourceTree = "<group>"; };
+		CC4E000C1C181E13006C60FC /* downLoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = downLoadViewController.xib; sourceTree = "<group>"; };
+		CC4EFFD51C18045D006C60FC /* ZBCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCollection.h; sourceTree = "<group>"; };
+		CC4EFFD61C18045D006C60FC /* ZBCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCollection.m; sourceTree = "<group>"; };
+		CC4EFFD71C18045D006C60FC /* ZBCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBCollection.xib; sourceTree = "<group>"; };
+		CC4EFFD81C18045D006C60FC /* ZBCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCollectionView.h; sourceTree = "<group>"; };
+		CC4EFFD91C18045D006C60FC /* ZBCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCollectionView.m; sourceTree = "<group>"; };
+		CC4EFFDA1C18045D006C60FC /* ZBCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBCollectionView.xib; sourceTree = "<group>"; };
+		CC4EFFDB1C18045D006C60FC /* ZBHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBHeader.h; sourceTree = "<group>"; };
+		CC4EFFDC1C18045D006C60FC /* ZBHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBHeader.m; sourceTree = "<group>"; };
+		CC4EFFDD1C18045D006C60FC /* ZBTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTableView.h; sourceTree = "<group>"; };
+		CC4EFFDE1C18045D006C60FC /* ZBTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTableView.m; sourceTree = "<group>"; };
+		CC4EFFDF1C18045D006C60FC /* ZBTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBTableView.xib; sourceTree = "<group>"; };
+		CC4EFFF51C181B65006C60FC /* personViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personViewController.h; sourceTree = "<group>"; };
+		CC4EFFF61C181B65006C60FC /* personViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personViewController.m; sourceTree = "<group>"; };
+		CC4EFFFA1C181D7A006C60FC /* downLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downLoadViewController.h; sourceTree = "<group>"; };
+		CC4EFFFB1C181D7A006C60FC /* downLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downLoadViewController.m; sourceTree = "<group>"; };
+		CC4EFFFC1C181D7A006C60FC /* UIImage+MostColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MostColor.h"; sourceTree = "<group>"; };
+		CC4EFFFD1C181D7A006C60FC /* UIImage+MostColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MostColor.m"; sourceTree = "<group>"; };
+		CC4EFFFE1C181D7A006C60FC /* ZBAppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBAppTableViewController.h; sourceTree = "<group>"; };
+		CC4EFFFF1C181D7A006C60FC /* ZBAppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBAppTableViewController.m; sourceTree = "<group>"; };
+		CC52BD191C0D7FA1007CCBAB /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
+		CC52BD1A1C0D7FA1007CCBAB /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
+		CC5B9A641C100E1500A0509E /* ZBFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBFlowLayout.h; sourceTree = "<group>"; };
+		CC5B9A651C100E1500A0509E /* ZBFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBFlowLayout.m; sourceTree = "<group>"; };
 		CCCA6C8C1BFEB076009BB108 /* ZBAnZhiMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBAnZhiMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCA6C901BFEB076009BB108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCA6C911BFEB076009BB108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +175,8 @@
 		CCCA6CA81BFEB076009BB108 /* ZBAnZhiMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBAnZhiMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCA6CAD1BFEB076009BB108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCA6CAE1BFEB076009BB108 /* ZBAnZhiMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBAnZhiMarketTests.m; sourceTree = "<group>"; };
+		CCCA6CB81BFEB9B8009BB108 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBD11885F40FFA22623AA364 /* Pods-ZBAnZhiMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBAnZhiMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBAnZhiMarket/Pods-ZBAnZhiMarket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +184,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCA6CB91BFEB9B8009BB108 /* CoreGraphics.framework in Frameworks */,
+				A5392D2179F588E8A7DE0A0A /* libPods-ZBAnZhiMarket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +199,238 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790D1097F40612748C46D190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6903C3DB900DFCDE7F984E74 /* libPods-ZBAnZhiMarket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC32A98C1C1D6F2E001F00CE /* 搜索页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC32A98D1C1D6F73001F00CE /* searchView.h */,
+				CC32A98E1C1D6F73001F00CE /* searchView.m */,
+				CC32A98F1C1D6F73001F00CE /* searchView.xib */,
+			);
+			name = "搜索页面";
+			sourceTree = "<group>";
+		};
+		CC36D9561C1AC5180085F8E9 /* 下载分类信息 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4530471C2CE05F0075B9E8 /* areasResult.h */,
+				CC4530481C2CE05F0075B9E8 /* areasResult.m */,
+				CC4530491C2CE05F0075B9E8 /* districtResult.h */,
+				CC45304A1C2CE05F0075B9E8 /* districtResult.m */,
+				CC3E483C1C2D16BA008CF659 /* loadDataObject.h */,
+				CC3E483D1C2D16BA008CF659 /* loadDataObject.m */,
+			);
+			name = "下载分类信息";
+			sourceTree = "<group>";
+		};
+		CC3964B71C24EDEA000495B8 /* coverview */ = {
+			isa = PBXGroup;
+			children = (
+				CC3964B81C24EE10000495B8 /* ZBCoverView.h */,
+				CC3964B91C24EE10000495B8 /* ZBCoverView.m */,
+			);
+			name = coverview;
+			sourceTree = "<group>";
+		};
+		CC397B1E1C0AECC000F87CD3 /* 第二个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC397B241C0AFB6900F87CD3 /* appViewController.h */,
+				CC397B251C0AFB6900F87CD3 /* appViewController.m */,
+				CC397B261C0AFB6900F87CD3 /* appViewController.xib */,
+				CC52BD191C0D7FA1007CCBAB /* ReusableView.h */,
+				CC52BD1A1C0D7FA1007CCBAB /* ReusableView.m */,
+			);
+			name = "第二个页面";
+			sourceTree = "<group>";
+		};
+		CC3C0A351C0AC470009EB027 /* 首页5个分类 */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA6C991BFEB076009BB108 /* ViewController.h */,
+				CCCA6C9A1BFEB076009BB108 /* ViewController.m */,
+				CC32A98C1C1D6F2E001F00CE /* 搜索页面 */,
+				CC4EFFF91C181D4C006C60FC /* 下载页面 */,
+				CC4EFFF31C181812006C60FC /* 第一个页面 */,
+				CC397B1E1C0AECC000F87CD3 /* 第二个页面 */,
+				CC48AEC61C0FCC9000AE0747 /* 分类页面 */,
+				CC48AED01C0FFAE600AE0747 /* 第四个页面 */,
+				CC4EFFF81C181D28006C60FC /* 第五个页面 */,
+			);
+			name = "首页5个分类";
+			sourceTree = "<group>";
+		};
+		CC3E483F1C2D43F6008CF659 /* cell和商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4530511C2CE0930075B9E8 /* ZBTableViewController.h */,
+				CC4530521C2CE0930075B9E8 /* ZBTableViewController.m */,
+				CC4530531C2CE0930075B9E8 /* ZBTableViewController.xib */,
+				CC3E48401C2D446A008CF659 /* detailTableViewController.h */,
+				CC3E48411C2D446A008CF659 /* detailTableViewController.m */,
+				CC3E48421C2D446A008CF659 /* detailTableViewController.xib */,
+				CC3E48431C2D446A008CF659 /* imageHeader.h */,
+				CC3E48441C2D446A008CF659 /* imageHeader.m */,
+				CC3E48451C2D446A008CF659 /* listsCell.h */,
+				CC3E48461C2D446A008CF659 /* listsCell.m */,
+				CC3E48471C2D446A008CF659 /* listsCell.xib */,
+			);
+			name = "cell和商品详情";
+			sourceTree = "<group>";
+		};
+		CC44879C1C1C3018000B82B2 /* 天气view */ = {
+			isa = PBXGroup;
+			children = (
+				CC44878D1C1C222F000B82B2 /* weatherViewController.h */,
+				CC44878E1C1C222F000B82B2 /* weatherViewController.m */,
+				CC44878F1C1C222F000B82B2 /* weatherViewController.xib */,
+				CC4487921C1C2530000B82B2 /* weatherTableViewController.h */,
+				CC4487931C1C2530000B82B2 /* weatherTableViewController.m */,
+				CC4487941C1C2530000B82B2 /* weatherTableViewController.xib */,
+				CC4487971C1C2546000B82B2 /* weatherDetailViewController.h */,
+				CC4487981C1C2546000B82B2 /* weatherDetailViewController.m */,
+				CC4487991C1C2546000B82B2 /* weatherDetailViewController.xib */,
+			);
+			name = "天气view";
+			sourceTree = "<group>";
+		};
+		CC44879D1C1C3164000B82B2 /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4487881C1C187F000B82B2 /* loginInViewController.h */,
+				CC4487891C1C187F000B82B2 /* loginInViewController.m */,
+				CC44878A1C1C187F000B82B2 /* loginInViewController.xib */,
+			);
+			name = "登陆";
+			sourceTree = "<group>";
+		};
+		CC48AEC61C0FCC9000AE0747 /* 分类页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC48AEC71C0FCEB200AE0747 /* SCViewController.h */,
+				CC48AEC81C0FCEB200AE0747 /* SCViewController.m */,
+				CC48AEC91C0FCEB200AE0747 /* SCViewController.xib */,
+				CC48AECD1C0FDCD700AE0747 /* SCReusableView.h */,
+				CC48AECE1C0FDCD700AE0747 /* SCReusableView.m */,
+				CC5B9A641C100E1500A0509E /* ZBFlowLayout.h */,
+				CC5B9A651C100E1500A0509E /* ZBFlowLayout.m */,
+			);
+			name = "分类页面";
+			sourceTree = "<group>";
+		};
+		CC48AED01C0FFAE600AE0747 /* 第四个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EFFD51C18045D006C60FC /* ZBCollection.h */,
+				CC4EFFD61C18045D006C60FC /* ZBCollection.m */,
+				CC4EFFD71C18045D006C60FC /* ZBCollection.xib */,
+				CC4EFFD81C18045D006C60FC /* ZBCollectionView.h */,
+				CC4EFFD91C18045D006C60FC /* ZBCollectionView.m */,
+				CC4EFFDA1C18045D006C60FC /* ZBCollectionView.xib */,
+				CC4EFFDB1C18045D006C60FC /* ZBHeader.h */,
+				CC4EFFDC1C18045D006C60FC /* ZBHeader.m */,
+				CC4EFFDD1C18045D006C60FC /* ZBTableView.h */,
+				CC4EFFDE1C18045D006C60FC /* ZBTableView.m */,
+				CC4EFFDF1C18045D006C60FC /* ZBTableView.xib */,
+			);
+			name = "第四个页面";
+			sourceTree = "<group>";
+		};
+		CC4E000A1C181D82006C60FC /* 图片背景颜色  */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EFFFC1C181D7A006C60FC /* UIImage+MostColor.h */,
+				CC4EFFFD1C181D7A006C60FC /* UIImage+MostColor.m */,
+			);
+			name = "图片背景颜色 ";
+			sourceTree = "<group>";
+		};
+		CC4E000B1C181DAA006C60FC /* 放大图片浏览 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E00011C181D7A006C60FC /* zoomImageViewController.h */,
+				CC4E00021C181D7A006C60FC /* zoomImageViewController.m */,
+				CC4E00031C181D7A006C60FC /* zoomImageViewController.xib */,
+			);
+			name = "放大图片浏览";
+			sourceTree = "<group>";
+		};
+		CC4EFFE71C180CF1006C60FC /* 分类下拉团购 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E483F1C2D43F6008CF659 /* cell和商品详情 */,
+				CC45304D1C2CE0930075B9E8 /* listButton.h */,
+				CC45304E1C2CE0930075B9E8 /* listButton.m */,
+				CC45304F1C2CE0930075B9E8 /* ZBListsViewController.h */,
+				CC4530501C2CE0930075B9E8 /* ZBListsViewController.m */,
+				CC3964B71C24EDEA000495B8 /* coverview */,
+				CC36D9561C1AC5180085F8E9 /* 下载分类信息 */,
+			);
+			name = "分类下拉团购";
+			sourceTree = "<group>";
+		};
+		CC4EFFF31C181812006C60FC /* 第一个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C0A361C0AC4E5009EB027 /* FShowTableViewController.h */,
+				CC3C0A371C0AC4E5009EB027 /* FShowTableViewController.m */,
+				CC3C0A381C0AC4E5009EB027 /* FShowTableViewController.xib */,
+			);
+			name = "第一个页面";
+			sourceTree = "<group>";
+		};
+		CC4EFFF41C181852006C60FC /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EFFF51C181B65006C60FC /* personViewController.h */,
+				CC4EFFF61C181B65006C60FC /* personViewController.m */,
+				CC4487831C1C1327000B82B2 /* menuTableView.h */,
+				CC4487841C1C1327000B82B2 /* menuTableView.m */,
+				CC4487851C1C1327000B82B2 /* menuTableView.xib */,
+				CC44879D1C1C3164000B82B2 /* 登陆 */,
+				CC44879C1C1C3018000B82B2 /* 天气view */,
+			);
+			name = "个人中心";
+			sourceTree = "<group>";
+		};
+		CC4EFFF81C181D28006C60FC /* 第五个页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "第五个页面";
+			sourceTree = "<group>";
+		};
+		CC4EFFF91C181D4C006C60FC /* 下载页面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EFFFA1C181D7A006C60FC /* downLoadViewController.h */,
+				CC4EFFFB1C181D7A006C60FC /* downLoadViewController.m */,
+				CC4E000C1C181E13006C60FC /* downLoadViewController.xib */,
+				CC4E000A1C181D82006C60FC /* 图片背景颜色  */,
+				CC4EFFFE1C181D7A006C60FC /* ZBAppTableViewController.h */,
+				CC4EFFFF1C181D7A006C60FC /* ZBAppTableViewController.m */,
+				CC4E00001C181D7A006C60FC /* ZBAppTableViewController.xib */,
+				CC4E000B1C181DAA006C60FC /* 放大图片浏览 */,
+			);
+			name = "下载页面";
+			sourceTree = "<group>";
+		};
 		CCCA6C831BFEB076009BB108 = {
 			isa = PBXGroup;
 			children = (
+				CCCA6CB81BFEB9B8009BB108 /* CoreGraphics.framework */,
 				CCCA6C8E1BFEB076009BB108 /* ZBAnZhiMarket */,
 				CCCA6CAB1BFEB076009BB108 /* ZBAnZhiMarketTests */,
 				CCCA6C8D1BFEB076009BB108 /* Products */,
+				D26D6F6FFBF0EF0454FFAA2B /* Pods */,
+				790D1097F40612748C46D190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +448,9 @@
 			children = (
 				CCCA6C931BFEB076009BB108 /* AppDelegate.h */,
 				CCCA6C941BFEB076009BB108 /* AppDelegate.m */,
-				CCCA6C991BFEB076009BB108 /* ViewController.h */,
-				CCCA6C9A1BFEB076009BB108 /* ViewController.m */,
+				CC4EFFF41C181852006C60FC /* 个人中心 */,
+				CC4EFFE71C180CF1006C60FC /* 分类下拉团购 */,
+				CC3C0A351C0AC470009EB027 /* 首页5个分类 */,
 				CCCA6C9C1BFEB076009BB108 /* Main.storyboard */,
 				CCCA6C9F1BFEB076009BB108 /* Images.xcassets */,
 				CCCA6CA11BFEB076009BB108 /* LaunchScreen.xib */,
@@ -122,6 +486,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D26D6F6FFBF0EF0454FFAA2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C598FC493DABD049702AC96 /* Pods-ZBAnZhiMarket.debug.xcconfig */,
+				DBD11885F40FFA22623AA364 /* Pods-ZBAnZhiMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +502,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCA6CB21BFEB076009BB108 /* Build configuration list for PBXNativeTarget "ZBAnZhiMarket" */;
 			buildPhases = (
+				F90EE09B5F9393F6EFF27AEC /* Check Pods Manifest.lock */,
 				CCCA6C881BFEB076009BB108 /* Sources */,
 				CCCA6C891BFEB076009BB108 /* Frameworks */,
 				CCCA6C8A1BFEB076009BB108 /* Resources */,
+				27C9A8E9251AE087881550D3 /* Embed Pods Frameworks */,
+				EAB06D262B5E52120A4DD003 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +578,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4487961C1C2530000B82B2 /* weatherTableViewController.xib in Resources */,
+				CC4EFFE31C18045D006C60FC /* ZBCollectionView.xib in Resources */,
+				CC48AECB1C0FCEB200AE0747 /* SCViewController.xib in Resources */,
+				CC3E484C1C2D446A008CF659 /* listsCell.xib in Resources */,
 				CCCA6C9E1BFEB076009BB108 /* Main.storyboard in Resources */,
+				CC3E48491C2D446A008CF659 /* detailTableViewController.xib in Resources */,
+				CC4E00091C181D7A006C60FC /* zoomImageViewController.xib in Resources */,
+				CC4E000D1C181E13006C60FC /* downLoadViewController.xib in Resources */,
 				CCCA6CA31BFEB076009BB108 /* LaunchScreen.xib in Resources */,
+				CC32A9911C1D6F73001F00CE /* searchView.xib in Resources */,
+				CC44879B1C1C2546000B82B2 /* weatherDetailViewController.xib in Resources */,
+				CC397B281C0AFB6900F87CD3 /* appViewController.xib in Resources */,
+				CC4EFFE61C18045D006C60FC /* ZBTableView.xib in Resources */,
+				CC4487911C1C222F000B82B2 /* weatherViewController.xib in Resources */,
+				CC4EFFE11C18045D006C60FC /* ZBCollection.xib in Resources */,
+				CC4E00071C181D7A006C60FC /* ZBAppTableViewController.xib in Resources */,
 				CCCA6CA01BFEB076009BB108 /* Images.xcassets in Resources */,
+				CC44878C1C1C187F000B82B2 /* loginInViewController.xib in Resources */,
+				CC4487871C1C1327000B82B2 /* menuTableView.xib in Resources */,
+				CC3C0A3A1C0AC4E5009EB027 /* FShowTableViewController.xib in Resources */,
+				CC4530571C2CE0930075B9E8 /* ZBTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +611,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C9A8E9251AE087881550D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBAnZhiMarket/Pods-ZBAnZhiMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB06D262B5E52120A4DD003 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBAnZhiMarket/Pods-ZBAnZhiMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90EE09B5F9393F6EFF27AEC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCCA6C881BFEB076009BB108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3C0A391C0AC4E5009EB027 /* FShowTableViewController.m in Sources */,
+				CC4EFFE51C18045D006C60FC /* ZBTableView.m in Sources */,
+				CC52BD1B1C0D7FA1007CCBAB /* ReusableView.m in Sources */,
+				CC4530561C2CE0930075B9E8 /* ZBTableViewController.m in Sources */,
+				CC4E00041C181D7A006C60FC /* downLoadViewController.m in Sources */,
+				CC44878B1C1C187F000B82B2 /* loginInViewController.m in Sources */,
+				CC48AECF1C0FDCD700AE0747 /* SCReusableView.m in Sources */,
+				CC4530551C2CE0930075B9E8 /* ZBListsViewController.m in Sources */,
+				CC48AECA1C0FCEB200AE0747 /* SCViewController.m in Sources */,
+				CC44879A1C1C2546000B82B2 /* weatherDetailViewController.m in Sources */,
+				CC3964BA1C24EE10000495B8 /* ZBCoverView.m in Sources */,
+				CC3E48481C2D446A008CF659 /* detailTableViewController.m in Sources */,
+				CC4EFFE01C18045D006C60FC /* ZBCollection.m in Sources */,
 				CCCA6C951BFEB076009BB108 /* AppDelegate.m in Sources */,
+				CC4EFFF71C181B65006C60FC /* personViewController.m in Sources */,
+				CC4E00081C181D7A006C60FC /* zoomImageViewController.m in Sources */,
+				CC3E484A1C2D446A008CF659 /* imageHeader.m in Sources */,
+				CC4EFFE41C18045D006C60FC /* ZBHeader.m in Sources */,
+				CC45304B1C2CE05F0075B9E8 /* areasResult.m in Sources */,
+				CC5B9A661C100E1500A0509E /* ZBFlowLayout.m in Sources */,
+				CC32A9901C1D6F73001F00CE /* searchView.m in Sources */,
+				CC397B271C0AFB6900F87CD3 /* appViewController.m in Sources */,
+				CC3E484B1C2D446A008CF659 /* listsCell.m in Sources */,
+				CC4EFFE21C18045D006C60FC /* ZBCollectionView.m in Sources */,
+				CC4E00061C181D7A006C60FC /* ZBAppTableViewController.m in Sources */,
+				CC4530541C2CE0930075B9E8 /* listButton.m in Sources */,
+				CC4E00051C181D7A006C60FC /* UIImage+MostColor.m in Sources */,
 				CCCA6C921BFEB076009BB108 /* main.m in Sources */,
 				CCCA6C9B1BFEB076009BB108 /* ViewController.m in Sources */,
 				CCCA6C981BFEB076009BB108 /* ZBAnZhiMarket.xcdatamodeld in Sources */,
+				CC45304C1C2CE05F0075B9E8 /* districtResult.m in Sources */,
+				CC3E483E1C2D16BA008CF659 /* loadDataObject.m in Sources */,
+				CC4487861C1C1327000B82B2 /* menuTableView.m in Sources */,
+				CC4487951C1C2530000B82B2 /* weatherTableViewController.m in Sources */,
+				CC4487901C1C222F000B82B2 /* weatherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +822,7 @@
 		};
 		CCCA6CB31BFEB076009BB108 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C598FC493DABD049702AC96 /* Pods-ZBAnZhiMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZBAnZhiMarket/Info.plist;
@@ -359,6 +833,7 @@
 		};
 		CCCA6CB41BFEB076009BB108 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD11885F40FFA22623AA364 /* Pods-ZBAnZhiMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZBAnZhiMarket/Info.plist;
@@ -420,6 +895,7 @@
 				CCCA6CB41BFEB076009BB108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCCA6CB51BFEB076009BB108 /* Build configuration list for PBXNativeTarget "ZBAnZhiMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +904,7 @@
 				CCCA6CB71BFEB076009BB108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
